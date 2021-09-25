@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+h1,h2,h3,h4,h5,h6, .assignments{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-family: 'Koh Santepheap', cursive;
+}
+
+.inline {
+    display: inline-block;
+}
+
+img{
+    max-width: 100%;
+    float: right;
+    margin-left: 2em;
+    box-shadow: 0 10px 10px -4px lightblue;
+  }
+
+body {
+    max-width:fit-content;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+  }
+
+.name{
+    padding: 1em;
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+.assignments{
+    margin-top: -9em;
+}
+
+.footer {
+    margin-top: 10em;
+    text-align: center;
+    padding:1em;
+    background-color: lightblue;
+    border-radius: 25px;
+  }
+
+li {
+    font-size: 1.2em;
+}
+
+#line{
+    margin-right: 2em;
+}
