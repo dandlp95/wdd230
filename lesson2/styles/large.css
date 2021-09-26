@@ -1,0 +1,11 @@
+@media only screen and (min-width: 56em) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 30px;
+    }
+
+    body{
+        font-size:1.3em;
+
+    }
+}

@@ -1,0 +1,23 @@
+@media only screen and (min-width: 29.5em) {
+    .grid-container{
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+
+    body{
+        font-size:1em;
+    }
+
+    #grid-container-1{
+        margin-left: 0.5em;
+        }
+    
+    #grid-container-3{
+        margin: 10px;
+    }
+
+
+    #grid-container-1, #grid-container-2, #grid-container-3{
+        padding: 0.1em;
+    }
+}
