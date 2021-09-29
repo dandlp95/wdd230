@@ -1,13 +1,19 @@
 body{
     font-family: 'Lato', sans-serif;
     font-size:1em;
-    background-color:#fff2e6
+    background-color: #fff2e6;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+main{
+    background-color:#fff2e6;
 }
 
 .main-header{
     width: 100%;
     text-align: center;
-    padding: 0.5em;
     background-color: #ccf2ff;
     border-style: solid;
 }
@@ -20,7 +26,7 @@ body{
     grid-row-gap: 0px;
 }
 
-#grid-container-1, #grid-container-2, #grid-container-3{
+.section{
     padding: 0.1em;
     border-style: solid;
     background-color: #e6fffa;
@@ -33,9 +39,11 @@ img{
     text-align: center;
     border-style: solid;
     width: 100%;
+    height:auto;
+    margin-top:1em;
 }
 
-.header-1 h3, .header-2 h3, .header-3 h3{
+header h3{
     padding: 0.5em;
     margin-left: -0.1em;
     margin-right: -0.1em;
@@ -59,4 +67,12 @@ p{
     font-family: 'Lato', sans-serif;
     font-size: 0.7em;
     padding:0.5em;
+}
+
+h4, .link{
+    padding-left: 1em;
+}
+
+.link{
+    margin-top: 1em;
 }
