@@ -1,0 +1,188 @@
+body{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #DCE1DE;
+    text-align: center;
+}
+
+footer{
+    background: #216869;
+    padding: 0.2em;
+    text-align: center;
+    color: #DCE1DE;
+    margin-top: 1em;
+}
+
+header{
+    background:#216869;
+    text-align: center;
+    color:#DCE1DE;
+    padding:0.5em;
+}
+nav ul{ 
+    display: block;
+    text-align: center; 
+}
+
+
+nav ul li { 
+    flex: 1 1 100%; 
+    padding:1em;
+    
+}
+
+a{
+    background: transparent;
+    color: #DCE1DE;
+}
+
+nav ul li a:hover{
+    background-color: #DCE1DE;
+    color:black;
+}
+
+nav{
+    background: #1F2421;
+}
+
+a:visited{
+    color: #DCE1DE;
+  }
+
+
+main{
+    background: #49A078;
+    padding: 1em;
+    color: #DCE1DE;
+}
+
+img{
+    border: 1px solid #1F2421;
+}
+
+h1, h2{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size:1em;
+}
+
+h3, p, li, th, td{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size:0.8em;
+}
+
+nav li{
+    font-size: 0.9em;
+}
+
+
+#persona1, #persona2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.persona-list{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    padding:0.2em;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ol li{
+    padding:0.2em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+th{
+    background-color:#216869;
+}
+
+#Skobeloff{
+    background:#216869;
+}
+
+#Shiny-shamrock{
+    background: #49A078;
+}
+
+#Eton-blue{
+    background: #9CC5A1;
+}
+
+#Gainsboro{
+    background: #DCE1DE;
+    color:black;
+}
+
+#Dark-Jungle-Green{
+    background: #1F2421;
+}
+
+.typography-table td{
+    background: #9CC5A1;
+    color: black;
+}
+
+th, td{
+    padding:0.5em;
+}
+
+
+.typography-table #primary-navigation{
+    font-family: 'Nunito Sans', sans-serif;
+    color:#DCE1DE;
+    background: #1F2421;
+}
+
+.typography-table #heading-1{
+    font-family: 'Quicksand', sans-serif;
+    color: #DCE1DE;
+    background:#49A078;
+}
+
+.typography-table #heading-2{
+    font-family: 'Quicksand', sans-serif;
+    color: #DCE1DE;
+    background: #49A078;
+}
+
+.typography-table #heading-3{
+    font-family: 'Quicksand', sans-serif;
+    color: #DCE1DE;
+    background: #49A078;
+}
+
+.typography-table #footer-navigation{
+    font-family: 'IBM Plex Sans', 'sans-serif';
+    background: #216869;
+    color: #DCE1DE
+}
+
+.typography-table #paragraph{
+    font-family: 'Quicksand', sans-serif;
+    color: #DCE1DE;
+    background: #49A078
+}
+
+.typography-table #subsections{
+    font-family: 'Quicksand', sans-serif;
+}

@@ -1,0 +1,83 @@
+@media only screen and (min-width: 32em) {
+    nav ul{ 
+        display: flex; 
+    }
+    h1,h2{
+        font-size:1.7em;  
+    }
+    h3, p, li, th, td, nav li{
+        font-size:1em;
+    }
+    body{
+        text-align: left;
+    }
+    #persona1{
+        float: left;
+        width: auto;
+        margin-right:1em;
+    }
+    #persona2{
+        float: right;
+        width: auto;
+        margin-left:1em;
+    }
+    #persona2-div{
+        text-align: right;
+        margin-top: 5em;
+
+    }
+
+    .typography-table #site-header{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size:40px;
+        color: #DCE1DE;
+        background: #216869;
+    }
+    .typography-table #primary-navigation{
+        font-family: 'Nunito Sans', sans-serif;
+        font-size:20px;
+        color:#DCE1DE;
+        background: #1F2421;
+    }
+    
+    .typography-table #heading-1{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 30px;
+        color: #DCE1DE;
+        background:#49A078;
+    }
+    
+    .typography-table #heading-2{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 25px;
+        color: #DCE1DE;
+        background: #49A078;
+    }
+    
+    .typography-table #heading-3{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 23px;
+        color: #DCE1DE;
+        background: #49A078;
+    }
+    
+    .typography-table #footer-navigation{
+        font-family: 'IBM Plex Sans', 'sans-serif';
+        font-size: 18px;
+        background: #216869;
+        color: #DCE1DE
+    }
+    
+    .typography-table #paragraph{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+        color: #DCE1DE;
+        background: #49A078
+    }
+    
+    .typography-table #subsections{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 20px;
+    }
+    
+}
