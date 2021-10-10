@@ -1,0 +1,51 @@
+@media only screen and (min-width: 50em) {
+    .header h1{
+        font-size:40px;
+        margin-bottom:-0.2em;
+        margin-top:-0.1em;
+    }
+    .header q{
+        font-size:20px;
+        
+
+    }
+
+    #mainNav{
+        display:flex;
+        width:80%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        height: 3em;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        line-height: 3em;
+    
+    }
+    
+    #mainNav li{
+        flex: 1;
+        height: 3em;
+        list-style-type:none;
+    }
+    
+    nav{
+        height:3em;
+    }
+
+    nav ul li a{
+        padding: 0;
+    }
+    button{
+        display:none;
+    }
+
+    main h2{
+        font-size: 35px;
+    }
+    
+    main > div{
+        font-size:18px;
+    }
+}
