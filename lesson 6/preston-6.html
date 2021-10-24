@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="Preston, Idaho page section from weather website">
+    <title>Weather We Doing Today | Preston,ID</title>
+    
+</head>
+<body>
+    <section class="saturday-banner" id="sBanner">
+        <h3>Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h3>
+    </section>
+    <header>
+        <picture class=logo>
+            <img src="images/weather-logo.png" alt="weather logo">
+        </picture>
+        <section class="header">
+            <h1>Weather We Doing Today</h1>
+            <q>Something to do every day, always</q>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">Menu</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="">Home</a></li>
+            <li><a href="" id="active">Preston</a></li>
+            <li><a href="">Soda Spring</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Preston Idaho</h2>
+        <div class='banner'>
+            <picture>
+                <source srcset="images/banner800.jpg" media="(min-width:500px) and (max-width:799px)">
+                <source srcset="images/banner1100.jpg" media="(min-width:800px)">
+            <img src="images/banner500.jpg" alt="hero image" class="heroImage">
+            </picture>
+            <section class="wheather-summary">
+                <h3>Wheather Summary</h3>
+                <p>Current: Snowy</p>
+                <p>High: <span id="temperature">35</span>°F</p>
+                <p>Windchill: <span id="windchill"></span>°F</p>
+                <p>Wind Speed: <span id="windSpeed">10</span>mph</p>
+            </section>
+        </div>
+        <div class='forecast'>
+            <h3>5 Day Forecast</h3>
+            <table class="five-day">
+                <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                </tr>
+                <tr>
+                    <td>⛅</td>
+                    <td>🌧</td>
+                    <td>⛅</td>
+                    <td>⛅</td>
+                    <td>⛅</td>
+                </tr>
+                <tr class="bottom-row">
+                    <td>55°</td>
+                    <td>60°</td>
+                    <td>48°</td>
+                    <td>47°</td>
+                    <td>51°</td>
+                </tr>
+            </table>
+        </div>
+        <div class='article'>
+            <img src="images/road.jpg" alt="road" class="road-image">
+            <div class="article-text">
+            <h3>Road Trips</h3>
+            <q>By Daniel De La Pena</q>
+            <p>In Idaho, taking the road less traveled is one of the best ways to explore the state. And with 31 unique scenic byways, there are plenty of opportunities to stop off for an adventure. Roll down the windows, feel the cool breeze and gaze upon true wilderness as you sweep through the mountains and valleys of Idaho’s vast landscapes.</p>
+            <p>Got road tripping on the mind? With 4.8 million acres of public lands, Idaho is a road tripper’s playground with endless opportunities for outdoor recreation. Combine that with friendly small towns and stunning roads, and you’ve got a well-rounded, budget-friendly summer vacation where you can get some much needed fresh air.</p>
+            </div>  
+        </div>
+        <div class="contact-info">
+            <div class="map-container">
+            <img src="images/map.jpg" alt="map" class="map">
+            </div>
+            <div>
+            <h4>Weather We Doing Today</h4>
+            <p>📍 30 N 1st 5</p>
+            <p>Preston, ID</p>
+            <p>&nbsp;&nbsp;</p>
+            <p>☎ 999-999-9999</p>
+            <p>📧 something@gmail.com</p>
+            <p></p>
+            </div>
+            <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
+        <p><span id="todayDate"></span></p>  
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ["Nunito Sans", "Quicksand", "IBM Plex Sans"]}});
+    </script>
+
+</body>
+</html>

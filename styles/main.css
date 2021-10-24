@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@charset "utf-8 */";
 
 h1,h2,h3,h4,h5,h6, .assignments{
     font-family: "Roboto", sans-serif;
+    font-weight:1;
 }
 
 p{
-    font-family: 'Koh Santepheap', cursive;
+    font-family: 'Koh Santepheap', sans-serif;
+    font-weight: 1;
 }
 
 .inline {
