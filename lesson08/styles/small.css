@@ -133,6 +133,10 @@ button:hover{
 
 
 /*Form CSS*/
+form{
+    max-width: 600px;
+    margin: 0 auto;
+}
 form fieldset {
     margin: 2rem 0;
     border: 1px solid rgba(220, 225, 222, 0.5);
@@ -194,4 +198,25 @@ form input.submitBtn {
     width:80%;
     max-width: 17rem;
     font-weight: bold;
+}
+
+.thanks{
+    text-align:center;
+    margin-bottom:3rem;
+}
+
+
+
+.stormRating{
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}
+
+main{
+    text-align:center;
+}
+
+.radio, .nonBox, #formTitle, legend, input, textarea, select{
+    margin:0 auto;
 }

@@ -39,27 +39,31 @@
     </nav>
     <main>
         <h2 id="formTitle">Storm Report</h2>
-        <form method="get">
-            
+        <form method="get" name="stormReport" id="form" action="thanks.html">
+
             <fieldset>
-                <div class="legend"><legend>Personal Information</legend></div>
+                <div class="legend">
+                    <legend>Personal Information</legend>
+                </div>
                 <label class="box">Full name*<input type="text" name="name" required autocomplete="name"
                         pattern="[A-Za-z]{5,}"></label>
                 <label class="box">Email* <input type="email" name="email" placeholder="someone@example.com"></label>
                 <label class="box">Phone number* <input type="tel" name="phone" required></label>
             </fieldset>
             <fieldset>
-                <div class="legend"><legend>Storm information</legend></div>
-                <label class="box">Zip code* <input type="number" pattern="[0-9]{5}" required></label>
-                <label class="box">Storm date* <input type="date" required></label>
+                <div class="legend">
+                    <legend>Storm information</legend>
+                </div>
+                <label class="box">Zip code* <input type="number" pattern="[0-9]{5}" name="zip" required></label>
+                <label class="box">Storm date* <input type="date" name="date" required></label>
 
                 <label class="box">Storm Type: <input list="stormTypes" name="stormType" id="stormType">
                     <datalist id="stormTypes">
-                        <option value="Flash flood">
-                        <option value="Hail">
-                        <option value="Hurricaine">
-                        <option value="Thunderstorm">
-                        <option value="Tornado">
+                        <option name="flood" value="Flash flood">
+                        <option name="hail" value="Hail">
+                        <option name="hurricane" value="Hurricaine">
+                        <option name="thunderstorm" value="Thunderstorm">
+                        <option name="tornado" value="Tornado">
                     </datalist>
                 </label>
 
@@ -72,7 +76,8 @@
                     </select>
                 </label>
 
-                <label class="stormRating">Storm severity: &nbsp;&nbsp;&nbsp;
+                <label class="stormRating">
+                    <p>Storm severity:</p>
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="severityRating"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
@@ -91,19 +96,21 @@
                     </datalist>
                 </label>
 
-                <div>User in-danger</div>
-                <label class="nonBox"><input type="radio" name="dangerLevel" value="yes">Yes</label>
-                <label class="nonBox"><input type="radio" name="dangerLevel" value="no">No</label>
-                <label class="nonBox"><input type="radio" name="dangerLevel" value="notSure">Not sure</label>
-
+                <div class="radio">
+                    <h3>User in-danger</h3>
+                    <label class="nonBox"><input type="radio" name="dangerLevel" value="yes">Yes</label>
+                    <label class="nonBox"><input type="radio" name="dangerLevel" value="no">No</label>
+                    <label class="nonBox"><input type="radio" name="dangerLevel" value="notSure">Not sure</label>
+                </div>
                 <label class="box">Additional information:
                     <textarea name="myTextBox" cols="50" rows="5">
                     </textarea>
                 </label>
             </fieldset>
-            <input type="submit" value="Report Storm" class="submitBtn">
-        </form>
 
+            <input type="submit" value="Report Storm" class="submitBtn">
+
+        </form>
     </main>
     <footer>
         <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
