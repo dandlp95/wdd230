@@ -42,28 +42,24 @@
         <form method="get" name="stormReport" id="form" action="thanks.html">
 
             <fieldset>
-                <div class="legend">
-                    <legend>Personal Information</legend>
-                </div>
+                    <h1 class="legend">Personal Information</h1>
                 <label class="box">Full name*<input type="text" name="name" required autocomplete="name"
                         pattern="[A-Za-z]{5,}"></label>
                 <label class="box">Email* <input type="email" name="email" placeholder="someone@example.com"></label>
                 <label class="box">Phone number* <input type="tel" name="phone" required></label>
             </fieldset>
             <fieldset>
-                <div class="legend">
-                    <legend>Storm information</legend>
-                </div>
-                <label class="box">Zip code* <input type="number" pattern="[0-9]{5}" name="zip" required></label>
+                    <h1 class="legend">Storm information</h1>
+                <label class="box">Zip code* <input type="number" name="zip" required></label>
                 <label class="box">Storm date* <input type="date" name="date" required></label>
 
                 <label class="box">Storm Type: <input list="stormTypes" name="stormType" id="stormType">
                     <datalist id="stormTypes">
-                        <option name="flood" value="Flash flood">
-                        <option name="hail" value="Hail">
-                        <option name="hurricane" value="Hurricaine">
-                        <option name="thunderstorm" value="Thunderstorm">
-                        <option name="tornado" value="Tornado">
+                        <option id="flood" value="Flash flood">
+                        <option id="hail" value="Hail">
+                        <option id="hurricaine" value="Hurricaine">
+                        <option id="thunderstorm" value="Thunderstorm">
+                        <option id="tornado" value="Tornado">
                     </datalist>
                 </label>
 
@@ -77,7 +73,7 @@
                 </label>
 
                 <label class="stormRating">
-                    <p>Storm severity:</p>
+                    Storm severity
                     <input type="range" id="rating" value="5" min="1" max="10" step="1" list="severityRating"
                         oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
                     <span id="ratingvalue">5</span>
