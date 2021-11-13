@@ -1,0 +1,247 @@
+body{
+    background-color:#DCE1DE;
+}
+
+main{
+    max-width: 1100px;
+    height:auto;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #49A078;
+    margin-top: 1em;
+}
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+    background-color:#216869;
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #DCE1DE;
+    padding: 0.1em;
+    text-align: center;
+    margin-top: 1em;
+
+}
+
+header{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 0;
+    background-color:#216869;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#DCE1DE;
+}
+
+.header h1{
+    font-size:25px;
+
+}
+
+main h2{
+    font-size: 25px;
+}
+
+main > div{
+    font-size:12px;
+}
+
+.header q{
+    font-size:12px;
+    margin-top:0.5em;
+}
+
+.header{
+    display:flex;
+    flex-direction:column;
+}
+
+.logo{
+    padding:1em;
+}
+
+nav{
+    background-color: #1F2421;
+    font-family: 'Nunito Sans', sans-serif;
+    color:#DCE1DE;
+    font-size:15px;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+#mainNav{
+    width:100%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+
+}
+
+#mainNav li{
+    list-style-type:none;
+}
+
+
+a:visited { 
+    text-decoration: none; 
+    color: #DCE1DE; 
+   }
+
+main{
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+nav ul li a{
+    display:block;
+    text-decoration:none;
+    padding: .5rem 2%;
+}
+
+li a:hover{
+    background:#DCE1DE;
+    color:black;
+}
+
+.hide{
+    display:none;
+}
+
+button{
+    background-color: #1F2421;
+    color: #DCE1DE;
+    padding:1em;
+    border:none;
+}
+
+button:hover{
+    background-color: #DCE1DE;
+    color:#1F2421;
+}
+
+#active{
+    background-color: #DCE1DE;
+    color: #1F2421;
+}
+
+.banner{
+    position: relative;
+    margin:10px auto;
+    margin-bottom:50px;
+}
+
+.heroImage{
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+}
+
+main .pageTitle{
+    text-align: center;
+}
+
+#preston{
+    background-color: rgba(220, 225, 222, 0.5);
+    display:block;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+#preston img{
+    width: 90%;
+    padding:1rem;
+}
+
+div.prestonTitle{
+    line-height: 40%;
+    margin-bottom: 2rem;
+}
+div.prestonTitle q{
+    font-size: 0.8rem;
+}
+
+div.prestonInfo{
+    padding-bottom: 1rem;
+    padding:1em;
+}
+
+
+#fish{
+    background-color: rgba(220, 225, 222, 0.5);
+    display:block;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:1rem;
+}
+#fish img{
+    width: 90%;
+    padding:1rem;
+}
+
+div.fishTitle{
+    line-height: 40%;
+    margin-bottom: 2rem;
+}
+div.fishTitle q{
+    font-size: 0.8rem;
+}
+
+div.fishInfo{
+    padding-bottom: 1rem;
+}
+
+
+#soda{
+    background-color: rgba(220, 225, 222, 0.5);
+    display:block;
+    max-width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top:1rem;
+}
+#soda img{
+    width: 90%;
+    padding:1rem;
+}
+
+div.sodaTitle{
+    line-height: 40%;
+    margin-bottom: 2rem;
+}
+div.sodaTitle q{
+    font-size: 0.8rem;
+}
+
+div.sodaInfo{
+    padding-bottom: 1rem;
+}
+
+/*
+#preston picture img{
+    width: 80%;
+    padding:1rem;
+}
+#preston{
+    display: flex;
+    background-color:rgba(220, 225, 222, 0.3);
+}
+.prestonInfo{
+    text-align:center;
+    margin: 0 auto;
+    font-size: 0.5rem;
+}
+
+.prestonInfo q{
+    margin-top:-1rem;
+}
+
+.prestonInfo h2{
+    margin-bottom:0;
+}
+*/

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wheather Site Home</title>
+</head>
+
+<body>
+    <header>
+        <picture class=logo>
+            <img src="images/weather-logo.png" alt="weather logo">
+        </picture>
+        <section class="header">
+            <h1>Weather We Doing Today</h1>
+            <q>Something to do every day, always</q>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">Menu</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="" id="active">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="">Soda Spring</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 class="pageTitle">Home Page</h2>
+        <div class='banner'>
+            <img src="images/banner.jpg" alt="hero image" class="heroImage">
+        </div>
+        <section id="towns">
+        <section id="preston">
+            <div class="prestonImage">
+                <picture><img src=images/preston.jpg alt="field image"></picture>
+            </div>
+            <div class=prestonInfo>
+                <div class="prestonTitle">
+                    <h2>Preston</h2>
+                    <q>Home of Napoleon Dynamite</q>
+                </div>
+                <p>Year founded: 1866</p>
+                <p>Population: 5204</p>
+                <p>Anual Rainfall: 16.65</p>
+            </div>
+        </section>
+        <section id="fish">
+            <div class="fishImage">
+                <picture><img src="images/fish.jpg" alt="image of trees"></picture>
+            </div>
+            <div class="fishInfo">
+            <div class="fishTitle">
+                <h2>Fish Haven</h2>
+                <q>This is Fish Haven</q>
+            </div>
+            <p>Year founded: 1864</p>
+            <p>Population: 501</p>
+            <p>Anual Rainfall 14.2</p>
+            </div>
+        </section>
+        <section id="soda">
+            <div class="sodaImage">
+                <picture><img src="images/soda.jpg" alt="field with windmills"></picture>
+            </div>
+            <div class="sodaInfo">
+            <div class="sodaTitle">
+                <h2>Soda Springs</h2>
+                <q>This is Soda Springs</q>
+            </div>
+            <p>Year founded: 1858</p>
+            <p>Population: 2985</p>
+            <p>Anual Rainfall: 15.75</p>
+            </div>
+        </section>
+    </section>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
+        <p><span id="todayDate"></span></p>
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({ google: { families: ["Nunito Sans", "Quicksand", "IBM Plex Sans"] } });
+    </script>
+</body>
+
+</html>
