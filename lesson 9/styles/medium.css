@@ -9,71 +9,36 @@
     margin-top: -0.1em;
   }
 
-  #preston img {
+  .townImage {
     width: 90%;
     margin-left: 0;
   }
-  .prestonImage {
-    max-width: 60%;
-  }
-  .prestonInfo q {
+
+
+  .info q {
     margin-top: -1rem;
   }
 
-  .prestonInfo{
+  .info{
     width: 50%;
   }
 
-  #preston {
+  .town{
     display: flex;
-    flex-direction: row;
     background-color: rgba(220, 225, 222, 0.3);
     max-width: 100%;
   }
 
-
-  #fish img {
-    width: 90%;
-    margin-left: 0;
+  section:nth-child(odd){
+    flex-direction: row;
   }
-  .fishImage {
-    max-width: 60%;
-  }
-  .fishInfo q {
-    margin-top: -1rem;
-  }
-
-  .fishInfo{
-    width: 50%;
-  }
-
-  #fish {
-    display: flex;
+  section:nth-child(even){
     flex-direction: row-reverse;
-    background-color: rgba(220, 225, 222, 0.3);
-    max-width: 100%;
   }
-
-  #soda img {
-    width: 90%;
-    margin-left: 0;
-  }
-  .sodaImage {
+  .townImage {
     max-width: 60%;
   }
-  .sodaInfo q {
-    margin-top: -1rem;
-  }
-  .sodaInfo{
-    width: 50%;
-  }
 
-  #soda {
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(220, 225, 222, 0.3);
-    max-width: 100%;
-  }
   .map{
     display:block;
     width:60%;  
