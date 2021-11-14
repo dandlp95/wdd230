@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Wheather Site Home</title>
+</head>
+
+<body>
+    <header>
+        <picture class=logo>
+            <img src="images/weather-logo.png" alt="weather logo">
+        </picture>
+        <section class="header">
+            <h1>Weather We Doing Today</h1>
+            <q>Something to do every day, always</q>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">Menu</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="" id="active">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="">Soda Spring</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="">Gallery</a></li>
+        </ul>
+    </nav>
+    <main id="wireframe">
+        <h2>Wireframes</h2>
+        <li><a href="https://wireframe.cc/pro/pp/99f2954da492810">Large wireframe</a></li>
+        <li><a href="https://wireframe.cc/pro/pp/fb3d820b9492814">Medium wireframe</a></li>
+        <li><a href="https://wireframe.cc/pro/pp/58865086d492832">Small wireframe</a></li>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
+        <p><span id="todayDate"></span></p>
+    </footer>
+    <script src="script/home.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({ google: { families: ["Nunito Sans", "Quicksand", "IBM Plex Sans"] } });
+    </script>
+</body>
+
+</html>

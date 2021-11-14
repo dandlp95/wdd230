@@ -166,11 +166,6 @@ div.title q{
     font-size: 0.8rem;
 }
 
-/*
-.town div:nth-child(2){
-    padding:1em;
-}
-*/
 
 div.info{
     padding-bottom: 1rem;
@@ -236,4 +231,8 @@ div.info{
 .eventImage{
     width:80%;
     padding-top:1.5rem;
+}
+
+#wireframe{
+    text-align:center;
 }

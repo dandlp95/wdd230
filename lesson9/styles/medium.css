@@ -29,10 +29,10 @@
     max-width: 100%;
   }
 
-  section:nth-child(odd){
+  main section:nth-child(odd){
     flex-direction: row;
   }
-  section:nth-child(even){
+  main section:nth-child(even){
     flex-direction: row-reverse;
   }
   .townImage {
