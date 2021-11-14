@@ -39,11 +39,17 @@
     }
 
     #preston, #soda, #fish{
-        display:block;
+        display:flex;
+        flex-direction:column-reverse;
     }
 
     .prestonImage,.sodaImage,.fishImage{
-        max-width:95%;
+        max-width:100%;
+    }
+
+    #towns img{
+        padding:0; 
+        width:100%;
     }
 
     div.prestonTitle, div.fishTitle, div.sodaTitle{
@@ -57,7 +63,26 @@
     div.prestonInfo, div.fishInfo, div.sodaInfo{
         margin:0 auto;
     }
+    #preston{
+        margin-top: 1rem;
+    }
+    .icons{
+        margin-top:6em;
+        }
 
+    .map{
+        height: auto;
+    }
+    .eventImage{
+        width:40%;
+        float: left;
+        padding-right:1rem;
+    }
+    .article h2{
+        text-align:left;
+    }
 
-
+    .article{
+        font-size:1.5rem;
+    }
 }

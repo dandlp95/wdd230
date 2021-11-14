@@ -222,26 +222,63 @@ div.sodaInfo{
     padding-bottom: 1rem;
 }
 
-/*
-#preston picture img{
-    width: 80%;
-    padding:1rem;
+.contact-info{
+    background-color: #216869;
+    margin-top:10px;
+    padding:0.5em;
+    color:#DCE1DE;
+    height: 21em;
+    line-height:0.5em;
+    text-align: center;
+    margin-top:8rem;
 }
-#preston{
-    display: flex;
-    background-color:rgba(220, 225, 222, 0.3);
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-google{
+    background: #dd4b39;
+    color: white;
+  }
+
+.fa-instagram{
+    background: #125688;
+    color: white;
 }
-.prestonInfo{
+
+.icons{
+    padding-top:2em;
+}
+
+.map{
+    display:none;
+}
+
+.article{
     text-align:center;
-    margin: 0 auto;
-    font-size: 0.5rem;
+    padding-top: 3rem;
 }
 
-.prestonInfo q{
-    margin-top:-1rem;
+.article h2{
+    margin-bottom:-1rem;
 }
 
-.prestonInfo h2{
-    margin-bottom:0;
+.eventImage{
+    width:80%;
+    padding-top:1.5rem;
 }
-*/
