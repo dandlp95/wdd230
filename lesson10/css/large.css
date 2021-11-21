@@ -1,0 +1,43 @@
+@media only screen and (min-width: 50em) {
+    .header h1{
+        font-size:40px;
+        margin-bottom:-0.2em;
+        margin-top:-0.1em;
+    }
+    .header q{
+        font-size:20px;
+    }
+
+    #mainNav{
+        display:flex;
+        width:80%;
+        flex-grow: 1;
+    }
+    
+    #mainNav li{
+        flex: 1;
+        list-style-type:none;
+    }
+    
+    button{
+        display:none;
+    }
+
+    main h2{
+        font-size: 35px;
+    }
+    
+    main > div{
+        font-size:18px;
+    }
+    .icons{
+    margin-top:6em;
+    }
+    .map{
+        width:60%;  
+        border:2px solid black;
+        float:left;
+        height: auto;
+        
+    }
+}

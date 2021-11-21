@@ -1,0 +1,52 @@
+@media only screen and (min-width: 32em) {
+    @media only screen and (min-width: 32em) {
+        header{
+            padding: 5px 0;
+        }
+    
+        .header h1{
+            font-size:32px;
+            margin-bottom:-0.2em;
+            margin-top:-0.1em;
+        }
+        .forecast{
+            display:block;
+        }
+        .map{
+            display:block;
+        }
+    
+        .road-image{
+            width:40%;
+            float:right;
+            margin-left:1em;
+        }
+        .article-text{
+            text-align: right;
+           
+    
+        }
+    
+        .icons{
+            margin-top:4em;
+        }
+        .contact-info{
+            justify-content:center;
+        }
+        .map{
+            display:block;
+            width:60%;  
+            border:2px solid black;
+            float:left;
+            height:70%;
+        }
+        .icons{
+            display:flex;
+            justify-content:right;
+            padding-right:3em;
+            padding-left:2em;
+     
+        }
+        
+    }
+}
