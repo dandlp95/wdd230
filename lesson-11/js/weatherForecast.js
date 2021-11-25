@@ -5,11 +5,11 @@ fetch(apiURL)
     .then((jsObject) => {
         console.log(jsObject);
 
-        let currentDescrip = document.querySelector('#currentDescrip');
-        let currentTemp = document.querySelector("#currentTemp");
-        let highTemp = document.querySelector("#high");
-        let windchill = document.querySelector("#windchill");
-        let windSpeed = document.querySelector("#windspeed");
+        let currentDescrip = document.querySelector('#p-currentDescrip');
+        let currentTemp = document.querySelector("#p-currentTemp");
+        let highTemp = document.querySelector("#p-high");
+        let windchill = document.querySelector("#p-windchill");
+        let windSpeed = document.querySelector("#p-windspeed");
 
         currentDescrip.textContent = jsObject.weather[0].description;
         console.log(jsObject.weather);
@@ -36,9 +36,9 @@ fetch(apiURLForecast)
             let imgsrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
             let imgalt = forecast.weather[0].description;
 
-            document.querySelector(`#day${day + 1}`).textContent = weekDays[date.getDay()];
-            document.querySelector(`#forecast${day + 1}`).textContent = forecast.main.temp.toFixed(0);
-            document.querySelector(`#icon${day + 1}`).setAttribute("src", imgsrc);
+            document.querySelector(`#p-day${day + 1}`).textContent = weekDays[date.getDay()];
+            document.querySelector(`#p-forecast${day + 1}`).textContent = forecast.main.temp.toFixed(0);
+            document.querySelector(`#p-icon${day + 1}`).setAttribute("src", imgsrc);
 
             console.log(forecast.weather[0].icon);
             day++;
