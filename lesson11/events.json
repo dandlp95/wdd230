@@ -1,0 +1,66 @@
+{
+    "events": [
+        {
+            "Soda Springs": [
+                {
+                    "event": "Geyser Song Day",
+                    "date": "February 29",
+                    "photo": "geyser.jpg"
+                },
+                {
+                    "event": "Days of May Celebration",
+                    "date": "May 1-6",
+                    "photo": "may.jpg"
+                },
+                {
+                    "event": "Octoberfest",
+                    "date": "October 15-16",
+                    "photo": "octoberfest.jpg"
+                }
+            ]
+        },
+        {
+            "Fish Haven": [
+                {
+                    "event": "How Big Was That Fish Day",
+                    "date": "April 1",
+                    "photo": "fish-day.jpg"
+                },
+                {
+                    "event": "Rush the Creek Days",
+                    "date": "May 15-30",
+                    "photo": "creek-days.jpg"
+                },
+                {
+                    "event": "Bear Lake Blunder Run",
+                    "date": "July 24",
+                    "photo": "bear-lake.jpg"
+                },
+                {
+                    "event": "Light the Tree",
+                    "date": "December 12",
+                    "photo": "light-tree.jpg"
+                }
+            ]
+        },
+        {
+            "Preston": [
+                {
+                    "event": "Work Creek Revival",
+                    "date": "March 29",
+                    "photo": "creek-revival.jpg"
+                },
+                {
+                    "event": "Napoleon Dynamite Festival",
+                    "date": "July 8-12",
+                    "photo": "napoleon.jpg"
+                },
+                {
+                    "event": "Freedom Days",
+                    "date": "November 2-4",
+                    "photo": "freedom.jpg"
+                }
+            ]
+        }
+    ]
+}
