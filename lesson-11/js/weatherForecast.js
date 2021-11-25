@@ -1,26 +1,3 @@
-function toggleMenu() {
-    document.getElementById("mainNav").classList.toggle('hide');
-}
-
-var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-var date = new Date();
-var n = date.toLocaleDateString('en-UK', options);
-document.getElementById("todayDate").innerHTML = n;
-
-// Saturday banner
-function saturdayBanner() {
-    const date = new Date();
-    var saturdayBanner = document.getElementById("sBanner");
-
-    if (date.getDay() !== 5) {
-        /*saturdayBanner.setAttribute("style", "display:none;");*/
-        saturdayBanner.style.display = "none";
-    }
-
-}
-
-saturdayBanner();
-
 // weather forecast
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=faf2a69873db9518af281faeffb50521`;
 fetch(apiURL)
