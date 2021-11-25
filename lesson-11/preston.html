@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Nunito+Sans:wght@700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="Preston/css/normalize.css">
-    <link rel="stylesheet" href="Preston/css/small.css">
-    <link rel="stylesheet" href="Preston/css/medium.css">
-    <link rel="stylesheet" href="Preston/css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Preston, Idaho page section from weather website">
     <title>Weather We Doing Today | Preston,ID</title>
@@ -23,7 +23,7 @@
     </section>
     <header>
         <picture class=logo>
-            <img src="Preston/images/weather-logo.png" alt="weather logo">
+            <img src="images/weather-logo.png" alt="weather logo">
         </picture>
         <section class="header">
             <h1>Weather We Doing Today</h1>
@@ -42,9 +42,9 @@
         </ul>
     </nav>
     <main>
-        <h2>Preston Idaho</h2>
+        <h2 class="pageTitle">Preston Idaho</h2>
         <div class='banner'>
-            <img src="Preston/images/banner.jpg" alt="hero image" class="heroImage">
+            <img src="images/preston-images/banner.jpg" alt="hero image" class="heroImage">
             <section class="wheather-summary">
                 <h3>Wheather Summary</h3>
                 <p>Current: <span id="currentDescrip"></span></p>
@@ -55,7 +55,7 @@
             </section>
         </div>
         <div class='forecast'>
-            <h3>5 Day Forecast</h3>
+            <h3 class="pageTitle">5 Day Forecast</h3>
             <table class="five-day">
                 <tr>
                     <th><span id="day1"></span></th>
@@ -81,7 +81,7 @@
             </table>
         </div>
         <div class='article'>
-            <img src="Preston/images/road.jpg" alt="road" class="road-image">
+            <img src="images/preston-images/road.jpg" alt="road" class="road-image">
             <div class="article-text">
             <h3>Road Trips</h3>
             <q>By Daniel De La Pena</q>
@@ -91,7 +91,7 @@
         </div>
         <div class="contact-info">
             <div class="map-container">
-            <img src="Preston/images/map.jpg" alt="map" class="map">
+            <img src="images/preston-images/map.jpg" alt="map" class="map">
             </div>
             <div>
             <h4>Weather We Doing Today</h4>
@@ -114,6 +114,8 @@
         <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
         <p><span id="todayDate"></span></p>  
     </footer>
-    <script src="Preston/scripts/scripts.js"></script>
+    <script src="js/banner.js"></script>
+    <scrip src="js/toggleMenu.js"></scrip>
+    <script src="js/weatherForecast.js"></script>
 </body>
 </html>

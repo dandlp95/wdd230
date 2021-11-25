@@ -96,4 +96,14 @@
   #preston {
     margin-top: 1rem;
   }
+
+  /* Gallery */
+  .gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  figure:hover {
+    box-shadow: 8px 8px 8px 8px rgba(65, 62, 62, 0.5);
+  }
+  /* Storm Center */
 }

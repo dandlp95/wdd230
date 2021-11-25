@@ -1,11 +1,3 @@
-function toggleMenu(){
-    document.getElementById("mainNav").classList.toggle('hide');
-}
-
-var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-var date = new Date();
-var n = date.toLocaleDateString('en-UK', options);
-document.getElementById("todayDate").innerHTML = n;
 
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 const loadImages = (image) => {
@@ -36,8 +28,6 @@ imagesToLoad.forEach((img) => {
       loadImages(img);
     });
   }
-
-
 
 
 let daysPassed = document.getElementById("daysPassed").textContent;

@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="storm-center/favicon.ico">
-    <link rel="stylesheet" href="storm-center/styles/normalize.css">
-    <link rel="stylesheet" href="storm-center/styles/small.css">
-    <link rel="stylesheet" href="storm-center/styles/medium.css">
-    <link rel="stylesheet" href="storm-center/styles/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Preston, Idaho page section from weather website">
     <title>Weather We Doing Today | Preston,ID</title>
@@ -19,7 +19,7 @@
 <body>
     <header>
         <picture class=logo>
-            <img src="storm-center/images/weather-logo.png" alt="weather logo">
+            <img src="images/weather-logo.png" alt="weather logo">
         </picture>
         <section class="header">
             <h1>Weather We Doing Today</h1>
@@ -37,7 +37,7 @@
             <li><a href="gallery.html">Gallery</a></li>
         </ul>
     </nav>
-    <main>
+    <main id="form">
         <h2 id="formTitle">Storm Report</h2>
         <form method="get" name="stormReport" id="form" action="thanks.html">
 
@@ -112,7 +112,8 @@
         <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
         <p><span id="todayDate"></span></p>
     </footer>
-    <script src="storm-center/scripts/scripts.js"></script>
+    <script src="js/toggleMenu.js"></script>
+    <script src="js/form.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({ google: { families: ["Nunito Sans", "Quicksand", "IBM Plex Sans"] } });

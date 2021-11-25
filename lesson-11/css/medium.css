@@ -23,8 +23,13 @@
     justify-content: right;
     padding-right: 3em;
     padding-left: 2em;
+    margin-top:4em;
   }
-  
+
+  .contact-info{
+    justify-content:center;
+  }
+
   /* Home */
   .townImage {
     width: 90%;
@@ -54,4 +59,24 @@
   .townImage {
     max-width: 60%;
   }
+
+  /* Town Pages */
+  .forecast{
+    display:block;
+}
+
+.road-image{
+  width:40%;
+  float:right;
+  margin-left:1em;
+}
+.article-text{
+  text-align: right;
+}
+
+/* Gallery */
+.gallery{
+  grid-template-columns: 1fr 1fr;
+}
+
 }
