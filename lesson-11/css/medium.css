@@ -1,0 +1,57 @@
+@media only screen and (min-width: 32em) {
+  /*  All */
+  header {
+    padding: 5px 0;
+  }
+
+  .header h1 {
+    font-size: 32px;
+    margin-bottom: -0.2em;
+    margin-top: -0.1em;
+  }
+  /* Contact info */
+  .map {
+    display: block;
+    width: 60%;
+    border: 2px solid black;
+    float: left;
+    height: 70%;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: right;
+    padding-right: 3em;
+    padding-left: 2em;
+  }
+  
+  /* Home */
+  .townImage {
+    width: 90%;
+    margin-left: 0;
+  }
+
+  .info q {
+    margin-top: -1rem;
+  }
+
+  .info {
+    width: 50%;
+  }
+
+  .town {
+    display: flex;
+    background-color: rgba(220, 225, 222, 0.3);
+    max-width: 100%;
+  }
+
+  main section:nth-child(odd) {
+    flex-direction: row;
+  }
+  main section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .townImage {
+    max-width: 60%;
+  }
+}
