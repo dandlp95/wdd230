@@ -1,12 +1,35 @@
-const eventsURL = "http://127.0.0.1:5500/wdd230/lesson-11/events.json";
-fetch(requestURL)
+const eventsURL = "https://dandlp95.github.io/wdd230/lesson-11/events.json";
+fetch(eventsURL)
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        console.log(jsonObject);
-    })
+        //console.log(jsonObject);
 
+        const sodaSpringEvents = jsonObject["SodaSprings"];
+        console.log(sodaSpringEvents);
+
+        for (let i = 0; i < sodaSpringEvents.length; i++) {
+            let eventSection = document.createElement("section");
+            let title = document.createElement("h2");
+            let date = document.createElement("p");
+            let img = document.createElement("img");
+
+
+            title.textContent = sodaSpringEvents[i].event;
+
+            date.textContent = sodaSpringEvents[i].date;
+            img.setAttribute("src", sodaSpringEvents[i].photo);
+
+            eventSection.appendChild(title);
+            eventSection.appendChild(date);
+
+            document.querySelector("div.pEvents").appendChild(eventSection);
+
+        }
+
+
+    })
 
 /*
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';

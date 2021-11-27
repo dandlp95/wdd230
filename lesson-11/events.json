@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "Soda Springs": [
+            "SodaSprings": [
                 {
                     "event": "Geyser Song Day",
                     "date": "February 29",
@@ -20,7 +20,7 @@
             ]
         },
         {
-            "Fish Haven": [
+            "FishHaven": [
                 {
                     "event": "How Big Was That Fish Day",
                     "date": "April 1",
