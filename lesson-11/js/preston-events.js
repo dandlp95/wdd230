@@ -22,6 +22,7 @@ fetch(eventsURL)
 
             eventSection.appendChild(title);
             eventSection.appendChild(date);
+            eventSection.appendChild(img);
             eventSection.classList.add("event");
 
             document.querySelector("div.pEvents").appendChild(eventSection);

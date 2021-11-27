@@ -5,17 +5,20 @@
                 {
                     "event": "Geyser Song Day",
                     "date": "February 29",
-                    "photo": "images/soda-spring-images/geyser.jpg"
+                    "photo": "images/soda-spring-images/geyser.jpg",
+                    "photo-description": "Geyser in Yellowstone"
                 },
                 {
                     "event": "Days of May Celebration",
                     "date": "May 1-6",
-                    "photo": "images/soda-spring-images/may.jpg"
+                    "photo": "images/soda-spring-images/may.jpg",
+                    "photo-description": "People walking by boats"
                 },
                 {
                     "event": "Octoberfest",
                     "date": "October 15-16",
-                    "photo": "images/soda-spring-images/octoberfest.jpg"
+                    "photo": "images/soda-spring-images/octoberfest.jpg",
+                    "photo-description":"Image of game in fair"
                 }
             ]
         },
@@ -24,22 +27,26 @@
                 {
                     "event": "How Big Was That Fish Day",
                     "date": "April 1",
-                    "photo": "images/fish-haven-images/fish-day.jpg"
+                    "photo": "images/fish-haven-images/fish-day.jpg",
+                    "photo-description":"Picture of man fishing"
                 },
                 {
                     "event": "Rush the Creek Days",
                     "date": "May 15-30",
-                    "photo": "images/fish-haven-images/creek-days.jpg"
+                    "photo": "images/fish-haven-images/creek-days.jpg",
+                    "photo-description":"Creek with colorful tree"
                 },
                 {
                     "event": "Bear Lake Blunder Run",
                     "date": "July 24",
-                    "photo": "images/fish-haven-images/bear-lake.jpg"
+                    "photo": "images/fish-haven-images/bear-lake.jpg",
+                    "photo-description":"Lake with trees around"
                 },
                 {
                     "event": "Light the Tree",
                     "date": "December 12",
-                    "photo": "images/fish-haven-images/light-tree.jpg"
+                    "photo": "images/fish-haven-images/light-tree.jpg",
+                    "photo-description":"Tree with sun in the background"
                 }
             ]
         },
@@ -48,17 +55,20 @@
                 {
                     "event": "Work Creek Revival",
                     "date": "March 29",
-                    "photo": "images/preston-images/creek-revival.jpg"
+                    "photo": "images/preston-images/creek-revival.jpg",
+                    "photo-description":"Image of creek surrounded by pines"
                 },
                 {
                     "event": "Napoleon Dynamite Festival",
                     "date": "July 8-12",
-                    "photo": "images/preston-images/napoleon.jpg"
+                    "photo": "images/preston-images/napoleon.jpg",
+                    "photo-description":"Picture of artificial fireworks"
                 },
                 {
                     "event": "Freedom Days",
                     "date": "November 2-4",
-                    "photo": "images/preston-images/freedom.jpg"
+                    "photo": "images/preston-images/freedom.jpg",
+                    "photo-description":"Picture of person dressed as the Statue of Liberty"
                 }
             ]
         }
