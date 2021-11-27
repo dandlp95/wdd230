@@ -107,7 +107,7 @@
   /* Storm Center */
 
   /* Towns */
-  .pEvents{
+  .events{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
@@ -126,6 +126,9 @@
     width:100%;
   }
 
-
+  /* Fish Haven grid */
+  #sp-grid{
+    grid-template-columns: 1fr 1fr;
+  }
 
 }

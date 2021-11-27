@@ -6,8 +6,8 @@ fetch(eventsURL)
     .then(function (jsonObject) {
         //console.log(jsonObject);
 
-        const sodaSpringEvents = jsonObject["events"][0].SodaSprings;
-        console.log(sodaSpringEvents);
+        const sodaSpringEvents = jsonObject["events"][2].Preston;
+
 
         for (let i = 0; i < sodaSpringEvents.length; i++) {
             let eventSection = document.createElement("section");
@@ -35,7 +35,7 @@ fetch(eventsURL)
             eventImgDiv.classList.add("event-img");
 
 
-            document.querySelector("div.pEvents").appendChild(eventSection);
+            document.querySelector("div.events").appendChild(eventSection);
 
         }
 
