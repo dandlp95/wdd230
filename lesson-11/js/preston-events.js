@@ -6,7 +6,7 @@ fetch(eventsURL)
     .then(function (jsonObject) {
         //console.log(jsonObject);
 
-        const sodaSpringEvents = jsonObject["SodaSprings"];
+        const sodaSpringEvents = jsonObject["events"][0].SodaSprings;
         console.log(sodaSpringEvents);
 
         for (let i = 0; i < sodaSpringEvents.length; i++) {
@@ -17,12 +17,12 @@ fetch(eventsURL)
 
 
             title.textContent = sodaSpringEvents[i].event;
-
             date.textContent = sodaSpringEvents[i].date;
             img.setAttribute("src", sodaSpringEvents[i].photo);
 
             eventSection.appendChild(title);
             eventSection.appendChild(date);
+            eventSection.classList.add("event");
 
             document.querySelector("div.pEvents").appendChild(eventSection);
 

@@ -5,17 +5,17 @@
                 {
                     "event": "Geyser Song Day",
                     "date": "February 29",
-                    "photo": "geyser.jpg"
+                    "photo": "images/soda-spring/geyser.jpg"
                 },
                 {
                     "event": "Days of May Celebration",
                     "date": "May 1-6",
-                    "photo": "may.jpg"
+                    "photo": "images/soda-spring/may.jpg"
                 },
                 {
                     "event": "Octoberfest",
                     "date": "October 15-16",
-                    "photo": "octoberfest.jpg"
+                    "photo": "images/soda-spring/octoberfest.jpg"
                 }
             ]
         },
@@ -24,22 +24,22 @@
                 {
                     "event": "How Big Was That Fish Day",
                     "date": "April 1",
-                    "photo": "fish-day.jpg"
+                    "photo": "images/soda-spring/fish-day.jpg"
                 },
                 {
                     "event": "Rush the Creek Days",
                     "date": "May 15-30",
-                    "photo": "creek-days.jpg"
+                    "photo": "images/soda-spring/creek-days.jpg"
                 },
                 {
                     "event": "Bear Lake Blunder Run",
                     "date": "July 24",
-                    "photo": "bear-lake.jpg"
+                    "photo": "images/soda-spring/bear-lake.jpg"
                 },
                 {
                     "event": "Light the Tree",
                     "date": "December 12",
-                    "photo": "light-tree.jpg"
+                    "photo": "images/soda-spring/light-tree.jpg"
                 }
             ]
         },
@@ -48,17 +48,17 @@
                 {
                     "event": "Work Creek Revival",
                     "date": "March 29",
-                    "photo": "creek-revival.jpg"
+                    "photo": "images/soda-spring/creek-revival.jpg"
                 },
                 {
                     "event": "Napoleon Dynamite Festival",
                     "date": "July 8-12",
-                    "photo": "napoleon.jpg"
+                    "photo": "images/soda-spring/napoleon.jpg"
                 },
                 {
                     "event": "Freedom Days",
                     "date": "November 2-4",
-                    "photo": "freedom.jpg"
+                    "photo": "images/soda-spring/freedom.jpg"
                 }
             ]
         }
