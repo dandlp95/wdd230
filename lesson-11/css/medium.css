@@ -9,6 +9,15 @@
     margin-bottom: -0.2em;
     margin-top: -0.1em;
   }
+
+  /* Event section for all pages*/
+  main section:nth-child(odd) {
+    flex-direction: row;
+  }
+  main section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
   /* Contact info */
   .map {
     display: block;
@@ -23,17 +32,18 @@
     justify-content: right;
     padding-right: 3em;
     padding-left: 2em;
-    margin-top:4em;
+    margin-top: 4em;
   }
 
-  .contact-info{
-    justify-content:center;
+  .contact-info {
+    justify-content: center;
   }
 
   /* Home */
   .townImage {
     width: 90%;
     margin-left: 0;
+    max-width: 60%;
   }
 
   .info q {
@@ -50,33 +60,37 @@
     max-width: 100%;
   }
 
-  main section:nth-child(odd) {
-    flex-direction: row;
-  }
-  main section:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  .townImage {
-    max-width: 60%;
-  }
-
   /* Town Pages */
-  .forecast{
-    display:block;
-}
+  .forecast {
+    display: block;
+  }
 
-.road-image{
-  width:40%;
-  float:right;
-  margin-left:1em;
-}
-.article-text{
-  text-align: right;
-}
+  .road-image {
+    width: 40%;
+    float: right;
+    margin-left: 1em;
+  }
+  .article-text {
+    text-align: right;
+  }
 
-/* Gallery */
-.gallery{
-  grid-template-columns: 1fr 1fr;
-}
+  .event {
+    display: flex;
+    background-color: rgba(220, 225, 222, 0.3);
+    max-width: 100%;
+  }
 
+  .event-text {
+    width: 50%;
+  }
+  
+  .event-img {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  /* Gallery */
+  .gallery {
+    grid-template-columns: 1fr 1fr;
+  }
 }

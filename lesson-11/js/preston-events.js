@@ -11,6 +11,8 @@ fetch(eventsURL)
 
         for (let i = 0; i < sodaSpringEvents.length; i++) {
             let eventSection = document.createElement("section");
+            let eventTextDiv = document.createElement("div");
+            let eventImgDiv = document.createElement("div");
             let title = document.createElement("h2");
             let date = document.createElement("p");
             let img = document.createElement("img");
@@ -19,12 +21,19 @@ fetch(eventsURL)
             title.textContent = sodaSpringEvents[i].event;
             date.textContent = sodaSpringEvents[i].date;
             img.setAttribute("src", sodaSpringEvents[i].photo);
-            img.setAttribute("alt", sodaSpringEvents[i].photo-description);
+            img.setAttribute("alt", sodaSpringEvents[i].photoDescription);
 
-            eventSection.appendChild(title);
-            eventSection.appendChild(date);
-            eventSection.appendChild(img);
+            eventTextDiv.appendChild(title);
+            eventTextDiv.appendChild(date);
+            eventImgDiv.appendChild(img);
+
+            eventSection.appendChild(eventTextDiv)
+            eventSection.appendChild(eventImgDiv);
+
             eventSection.classList.add("event");
+            eventTextDiv.classList.add("event-text");
+            eventImgDiv.classList.add("event-img");
+
 
             document.querySelector("div.pEvents").appendChild(eventSection);
 
