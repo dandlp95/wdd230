@@ -19,6 +19,7 @@ fetch(eventsURL)
             title.textContent = sodaSpringEvents[i].event;
             date.textContent = sodaSpringEvents[i].date;
             img.setAttribute("src", sodaSpringEvents[i].photo);
+            img.setAttribute("alt", sodaSpringEvents[i].photo-description);
 
             eventSection.appendChild(title);
             eventSection.appendChild(date);
