@@ -76,10 +76,7 @@ nav{
 #mainNav li{
     list-style-type:none;
 }
-/*Not sure if  this will work*/
-a:visited, a, a:hover, a:focus, a:active { 
-    text-decoration: none; 
-   }
+
 
 main{
     font-family: 'Quicksand', sans-serif;
@@ -90,6 +87,7 @@ nav ul li a{
     display:block;
     text-decoration:none;
     padding: .5rem 2%;
+    color:white;
 }
 
 li a:hover{
