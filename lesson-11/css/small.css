@@ -79,7 +79,6 @@ nav{
 /*Not sure if  this will work*/
 a:visited, a, a:hover, a:focus, a:active { 
     text-decoration: none; 
-    color: #DCE1DE; 
    }
 
 main{
