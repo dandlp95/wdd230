@@ -254,37 +254,16 @@ div.info{
     margin-bottom:10px;
 }
 
-.five-day{
-    border-collapse: collapse;
-    margin:0 auto;
-}
-
-
-.five-day th{
-    background-color: #216869;
-    border: 1px solid black;
-    padding:0.4em;
-}
-
-.five-day td{
-    background-color: #DCE1DE;
-    border-left:1px solid black;
-    border-right:1px solid black;
-    padding:0.4em;
-}
-
-.bottom-row td{
-    border-bottom:1px solid black;
-}
-
 .forecast{
-    margin-bottom: 40px;
-    display:none;
+    display: none;
 }
 
 .article{
-    margin:0 auto;
-    margin-bottom: 40px;
+    padding-top: 7rem;
+}
+
+.events{
+    padding-top:3rem;
 }
 
 .article-text{

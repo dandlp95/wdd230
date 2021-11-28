@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="Preston/favicon.ico">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Nunito+Sans:wght@700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Nunito+Sans:wght@700&family=Quicksand:wght@400;500;600&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
@@ -15,11 +18,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="description" content="Preston, Idaho page section from weather website">
     <title>Weather We Doing Today | Preston,ID</title>
-    
+
 </head>
+
 <body>
     <section class="saturday-banner" id="sBanner">
-        <h3>Saturday = Fish Haven Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</h3>
+        <h3>Saturday = Fish Haven Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</h3>
     </section>
     <header>
         <picture class=logo>
@@ -45,10 +49,11 @@
         <h2 class="pageTitle">Fish Haven, Idaho</h2>
         <div class='banner'>
             <picture>
-                <source srcset="images/fish-haven-images/fish-haven-banner-800.jpg" media="(min-width:32em) and (max-width:49em)">
+                <source srcset="images/fish-haven-images/fish-haven-banner-800.jpg"
+                    media="(min-width:32em) and (max-width:49em)">
                 <source srcset="images/fish-haven-images/fish-haven-banner-1100.jpg" media="(min-width:50em)">
                 <img src="images/fish-haven-images/fish-haven-banner-500.jpg" alt="hero image" class="heroImage">
-            </picture>   
+            </picture>
             <section class="wheather-summary">
                 <h3>Wheather Summary</h3>
                 <p>Current: <span id="currentDescrip"></span></p>
@@ -58,9 +63,8 @@
                 <p>Wind Speed: <span id="windspeed"></span>mph</p>
             </section>
         </div>
-        <div class="events" id="sp-grid"></div>
         <div class='forecast'>
-            <h3 class="pageTitle">5 Day Forecast</h3>
+            <h3 class=forecastTitle>5 Day Forecast</h3>
             <table class="five-day">
                 <tr>
                     <th><span id="day1"></span></th>
@@ -70,11 +74,11 @@
                     <th><span id="day5"></span></th>
                 </tr>
                 <tr>
-                    <td><img id="icon1" src="" alt=""></td>
-                    <td><img id="icon2" src="" alt=""></td>
-                    <td><img id="icon3" src="" alt=""></td>
-                    <td><img id="icon4" src="" alt=""></td>
-                    <td><img id="icon5" src="" alt=""></td>
+                    <td><img id="icon1" src="" alt="weather icon"></td>
+                    <td><img id="icon2" src="" alt="weather icon"></td>
+                    <td><img id="icon3" src="" alt="weather icon"></td>
+                    <td><img id="icon4" src="" alt="weather icon"></td>
+                    <td><img id="icon5" src="" alt="weather icon"></td>
                 </tr>
                 <tr class="bottom-row">
                     <td><span id="forecast1"></span>°f</td>
@@ -85,27 +89,36 @@
                 </tr>
             </table>
         </div>
+
+        <div class="events" id="sp-grid"></div>
+
         <div class='article'>
             <img src="images/preston-images/road.jpg" alt="road" class="road-image">
             <div class="article-text">
-            <h3>Road Trips</h3>
-            <q>By Daniel De La Pena</q>
-            <p>In Idaho, taking the road less traveled is one of the best ways to explore the state. And with 31 unique scenic byways, there are plenty of opportunities to stop off for an adventure. Roll down the windows, feel the cool breeze and gaze upon true wilderness as you sweep through the mountains and valleys of Idaho’s vast landscapes.</p>
-            <p>Got road tripping on the mind? With 4.8 million acres of public lands, Idaho is a road tripper’s playground with endless opportunities for outdoor recreation. Combine that with friendly small towns and stunning roads, and you’ve got a well-rounded, budget-friendly summer vacation where you can get some much needed fresh air.</p>
-            </div>  
+                <h3>Road Trips</h3>
+                <q>By Daniel De La Pena</q>
+                <p>In Idaho, taking the road less traveled is one of the best ways to explore the state. And with 31
+                    unique scenic byways, there are plenty of opportunities to stop off for an adventure. Roll down the
+                    windows, feel the cool breeze and gaze upon true wilderness as you sweep through the mountains and
+                    valleys of Idaho’s vast landscapes.</p>
+                <p>Got road tripping on the mind? With 4.8 million acres of public lands, Idaho is a road tripper’s
+                    playground with endless opportunities for outdoor recreation. Combine that with friendly small towns
+                    and stunning roads, and you’ve got a well-rounded, budget-friendly summer vacation where you can get
+                    some much needed fresh air.</p>
+            </div>
         </div>
         <div class="contact-info">
             <div class="map-container">
-            <img src="images/preston-images/map.jpg" alt="map" class="map">
+                <img src="images/preston-images/map.jpg" alt="map" class="map">
             </div>
             <div>
-            <h4>Weather We Doing Today</h4>
-            <p>📍 30 N 1st 5</p>
-            <p>Preston, ID</p>
-            <p>&nbsp;&nbsp;</p>
-            <p>☎ 999-999-9999</p>
-            <p>📧 something@gmail.com</p>
-            <p></p>
+                <h4>Weather We Doing Today</h4>
+                <p>📍 30 N 1st 5</p>
+                <p>Preston, ID</p>
+                <p>&nbsp;&nbsp;</p>
+                <p>☎ 999-999-9999</p>
+                <p>📧 something@gmail.com</p>
+                <p></p>
             </div>
             <div class="icons">
                 <a href="#" class="fa fa-facebook"></a>
@@ -117,11 +130,12 @@
     </main>
     <footer>
         <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
-        <p><span id="todayDate"></span></p>  
+        <p><span id="todayDate"></span></p>
     </footer>
     <script src="js/banner.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/fish-haven-weather.js"></script>
     <script src="js/fish-haven-events.js"></script>
 </body>
+
 </html>
