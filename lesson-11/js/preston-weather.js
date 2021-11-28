@@ -1,4 +1,8 @@
 /* Preston */
+function firstLetterCap(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1);
+}
+
 const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=faf2a69873db9518af281faeffb50521`;
 fetch(apiURL)
     .then((response) => response.json())
@@ -10,7 +14,7 @@ fetch(apiURL)
         let windchill = document.querySelector("#windchill");
         let windSpeed = document.querySelector("#windspeed");
 
-        currentDescrip.textContent = jsObject.weather[0].description;
+        currentDescrip.textContent = firstLetterCap(jsObject.weather[0].description);
 
         currentTemp.textContent = jsObject.main.temp.toFixed(0);
         highTemp.textContent = jsObject.main.temp_max.toFixed(0);

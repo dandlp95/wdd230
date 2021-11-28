@@ -47,7 +47,7 @@
             <picture>
                 <source srcset="images/preston-images/preston-banner-800.jpg" media="(min-width:32em) and (max-width:49em)">
                 <source srcset="images/preston-images/preston-banner-1100.jpg" media="(min-width:50em)">
-                <img src="images/preston-images/preston-banner-500.jpg" alt="hero image" class="heroImage">
+                <img src="images/preston-images/preston-banner-500.jpg" alt="Forest with mountains" class="heroImage">
             </picture>
             <section class="wheather-summary">
                 <h3>Wheather Summary</h3>
@@ -86,7 +86,7 @@
         </div>
         <div class="events"></div>
         <div class='article'>
-            <img src="images/preston-images/road.jpg" alt="road" class="road-image">
+            <img src="images/preston-images/road.jpg" alt="Car driving by road" class="road-image">
             <div class="article-text">
             <h3>Road Trips</h3>
             <q>By Daniel De La Pena</q>
@@ -96,7 +96,7 @@
         </div>
         <div class="contact-info">
             <div class="map-container">
-            <img src="images/preston-images/map.jpg" alt="map" class="map">
+            <img src="images/map.jpg" alt="map" class="map">
             </div>
             <div>
             <h4>Weather We Doing Today</h4>
@@ -118,10 +118,15 @@
     <footer>
         <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
         <p><span id="todayDate"></span></p>  
+        <p>Weather data obtained from <a href="https://openweathermap.org/">openweather.org</a></p>
     </footer>
     <script src="js/banner.js"></script>
     <script src="js/toggleMenu.js"></script>
     <script src="js/preston-weather.js"></script>
     <script src="js/preston-events.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ["Roboto", "Koh Santepheap", "Quicksand"]}});
+    </script>
 </body>
 </html>

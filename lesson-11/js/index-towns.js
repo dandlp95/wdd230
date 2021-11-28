@@ -66,7 +66,7 @@ fetch(townsURL)
         let imgFileNameF = townsInfoF.photo;
 
         imgF.setAttribute("src", "images/home-images/" + imgFileNameF);
-        imgF.setAttribute("alt", "field image");
+        imgF.setAttribute("alt", "field images with trees");
         townsNameF.textContent = townsInfoF.name;
         quotationF.textContent = townsInfoF.motto;
         yearF.textContent = "Year Founded: " + townsInfoF.yearFounded;
@@ -107,7 +107,7 @@ fetch(townsURL)
         let imgFileNameS = townsInfoS.photo;
 
         imgS.setAttribute("src", "images/home-images/" + imgFileNameS);
-        imgS.setAttribute("alt", "field image");
+        imgS.setAttribute("alt", "windmill field");
         townsNameS.textContent = townsInfoS.name;
         quotationS.textContent = townsInfoS.motto;
         yearS.textContent = "Year Founded: " + townsInfoS.yearFounded;
