@@ -4,7 +4,6 @@ fetch(eventsURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        //console.log(jsonObject);
 
         const sodaSpringEvents = jsonObject["events"][2].Preston;
 

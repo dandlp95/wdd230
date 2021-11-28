@@ -64,11 +64,10 @@
     grid-template-rows: auto;
   }
 
-  #preston,
-  #soda,
-  #fish {
-    flex-direction: column-reverse;
-  }
+main section.town{
+  flex-direction: column-reverse;
+
+}
 
   .townImage {
     max-width: 100%;
@@ -92,9 +91,6 @@
     margin: 0 auto;
   }
 
-  #preston {
-    margin-top: 1rem;
-  }
 
   /* Gallery */
   .gallery {
