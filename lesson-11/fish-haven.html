@@ -44,7 +44,11 @@
     <main>
         <h2 class="pageTitle">Fish Haven, Idaho</h2>
         <div class='banner'>
-            <img src="images/preston-images/banner.jpg" alt="hero image" class="heroImage">
+            <picture>
+                <source srcset="images/fish-haven-images/fish-haven-banner-800.jpg" media="(min-width:32em) and (max-width:49em)">
+                <source srcset="images/fish-haven-images/fish-haven-banner-1100.jpg" media="(min-width:50em)">
+                <img src="images/fish-haven-images/fish-haven-banner-500.jpg" alt="hero image" class="heroImage">
+            </picture>   
             <section class="wheather-summary">
                 <h3>Wheather Summary</h3>
                 <p>Current: <span id="currentDescrip"></span></p>
