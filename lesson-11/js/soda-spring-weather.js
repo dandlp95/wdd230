@@ -40,6 +40,7 @@ fetch(ApiURLForecast)
             document.querySelector(`#day${day + 1}`).textContent = weekDays[date.getDay()];
             document.querySelector(`#forecast${day + 1}`).textContent = forecast.main.temp.toFixed(0);
             document.querySelector(`#icon${day + 1}`).setAttribute("src", imgsrc);
+            document.querySelector(`#icon${day + 1}`).setAttribute("alt", imgalt);
 
             day++;
 
