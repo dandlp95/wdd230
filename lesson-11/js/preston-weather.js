@@ -37,11 +37,31 @@ fetch(apiURLForecast)
             let imgsrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
             let imgalt = forecast.weather[0].description;
 
-            document.querySelector(`#day${day + 1}`).textContent = weekDays[date.getDay()];
-            document.querySelector(`#forecast${day + 1}`).textContent = forecast.main.temp.toFixed(0);
-            document.querySelector(`#icon${day + 1}`).setAttribute("src", imgsrc);
-            document.querySelector(`#icon${day + 1}`).setAttribute("alt", imgalt);
+            let img = document.createElement("img");
+            let iconRow = document.createElement("td");
+            let daysRow = document.createElement("th");
+            let daysSpan = document.createElement("span");
+            let temperatureRow = document.createElement("td");
+            let temperatureSpan = document.createElement("span");
 
+            daysSpan.textContent = weekDays[date.getDay()];
+            temperatureSpan.textContent = forecast.main.temp.toFixed(0)+"°f";
+            
+
+            img.setAttribute("src", imgsrc);
+            img.setAttribute("alt", imgalt);
+            img.setAttribute("id", `icon${day+1}`);
+            daysSpan.setAttribute("id", `day${day+1}`);
+            temperatureSpan.setAttribute("id", `forecast${day+1}`)
+
+            iconRow.appendChild(img);
+            daysRow.appendChild(daysSpan);
+            temperatureRow.appendChild(temperatureSpan);
+
+
+            document.querySelector(".weatherIcons").appendChild(iconRow);
+            document.querySelector(".weatherDays").appendChild(daysRow);
+            document.querySelector(".bottom-row").appendChild(temperatureRow);
             day++;
 
         })

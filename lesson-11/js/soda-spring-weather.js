@@ -2,8 +2,8 @@ function firstLetterCap(str) {
     return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
-const ApiURL = `https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=faf2a69873db9518af281faeffb50521`;
-fetch(ApiURL)
+const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=5607916&units=imperial&appid=faf2a69873db9518af281faeffb50521`;
+fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
 
@@ -22,8 +22,8 @@ fetch(ApiURL)
         windSpeed.textContent = jsObject.wind.speed.toFixed(0);
     });
 
-const ApiURLForecast = `https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=faf2a69873db9518af281faeffb50521`;
-fetch(ApiURLForecast)
+const apiURLForecast = `https://api.openweathermap.org/data/2.5/forecast?id=5607916&units=imperial&appid=faf2a69873db9518af281faeffb50521`;
+fetch(apiURLForecast)
     .then((response) => response.json())
     .then((jsObject) => {
 
@@ -37,11 +37,31 @@ fetch(ApiURLForecast)
             let imgsrc = `https://openweathermap.org/img/w/${forecast.weather[0].icon}.png`;
             let imgalt = forecast.weather[0].description;
 
-            document.querySelector(`#day${day + 1}`).textContent = weekDays[date.getDay()];
-            document.querySelector(`#forecast${day + 1}`).textContent = forecast.main.temp.toFixed(0);
-            document.querySelector(`#icon${day + 1}`).setAttribute("src", imgsrc);
-            document.querySelector(`#icon${day + 1}`).setAttribute("alt", imgalt);
+            let img = document.createElement("img");
+            let iconRow = document.createElement("td");
+            let daysRow = document.createElement("th");
+            let daysSpan = document.createElement("span");
+            let temperatureRow = document.createElement("td");
+            let temperatureSpan = document.createElement("span");
 
+            daysSpan.textContent = weekDays[date.getDay()];
+            temperatureSpan.textContent = forecast.main.temp.toFixed(0)+"°f";
+            
+
+            img.setAttribute("src", imgsrc);
+            img.setAttribute("alt", imgalt);
+            img.setAttribute("id", `icon${day+1}`);
+            daysSpan.setAttribute("id", `day${day+1}`);
+            temperatureSpan.setAttribute("id", `forecast${day+1}`)
+
+            iconRow.appendChild(img);
+            daysRow.appendChild(daysSpan);
+            temperatureRow.appendChild(temperatureSpan);
+
+
+            document.querySelector(".weatherIcons").appendChild(iconRow);
+            document.querySelector(".weatherDays").appendChild(daysRow);
+            document.querySelector(".bottom-row").appendChild(temperatureRow);
             day++;
 
         })
