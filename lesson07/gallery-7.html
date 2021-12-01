@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="description" content="Preston, Idaho page section from weather website">
+    <title>Weather We Doing Today | Preston,ID</title>
+    
+</head>
+<body>
+    <header>
+        <picture class=logo>
+            <img src="images/weather-logo.png" alt="weather logo">
+        </picture>
+        <section class="header">
+            <h1>Weather We Doing Today</h1>
+            <q>Something to do every day, always</q>
+        </section>
+    </header>
+    <nav>
+        <button onclick="toggleMenu()">Menu</button>
+        <ul id="mainNav" class="hide">
+            <li><a href="">Home</a></li>
+            <li><a href="">Preston</a></li>
+            <li><a href="">Soda Spring</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="">Storm Center</a></li>
+            <li><a href="" id="active">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h3>Gallery</h3>
+        <div class="gallery">
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/clear-sky.jpg" alt="Image of open field and house">
+            <div class="description">
+                <p>House in open field with clear skies</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/cyclone.jpg" alt="Image of cyclone destroying house.">
+            <div class="description">
+                <p>Cyclone destroying house</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/drizzling.jpg" alt="Drizzling in a street">
+            <div class="description">
+                <p>Drizzling in an alley</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/rainy.jpg" alt="Rain in town">
+            <div class="description">
+                <p>Raining in town</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/snow.jpg" alt="Snowy neighborhood">
+            <div class="description">
+                <p>Snowy day in neighborhood</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/sunny-valley.jpg" alt="Sunny road">
+            <div class="description">
+                <p>Long highway in sunny valley</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/thunder.jpg" alt="Thunder in the sea">
+            <div class="description">
+                <p>Thunders in the sea</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/tree-cloudy.jpg" alt="Cloudy in a field with a tree">
+            <div class="description">
+                <p>Cloudy day in field with a tree</p>
+            </div>
+        </figure>
+        <figure>
+            <img src="https://via.placeholder.com/300x230/" data-src="images/windy.jpg" alt="Cloudy and windy in open field">
+            <div class="description">
+                <p>Windy day in open field</p>
+            </div>
+        </figure>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
+        <p><span id="todayDate"></span></p>
+        <p>Days since website was visited: <span id="daysPassed">0</span></p>  
+    </footer>
+    <script src="scripts/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({google: {families: ["Roboto", "Koh Santepheap", "Quicksand"]}});
+    </script>
+</body>
+</html>

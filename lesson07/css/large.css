@@ -23,21 +23,15 @@
         display:none;
     }
 
-    main h2{
-        font-size: 35px;
+    .gallery{
+        grid-template-columns: 1fr 1fr 1fr;
     }
+
     
-    main > div{
-        font-size:18px;
-    }
-    .icons{
-    margin-top:6em;
-    }
-    .map{
-        width:60%;  
-        border:2px solid black;
-        float:left;
-        height: auto;
-        
-    }
+figure:hover{
+    box-shadow: 8px 8px 8px 8px rgba(65, 62, 62, 0.5);
+}
+    
+
+
 }
