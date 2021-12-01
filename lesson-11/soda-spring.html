@@ -49,10 +49,12 @@
         <h2 class="pageTitle">Soda Springs, Idaho</h2>
         <div class='banner'>
             <picture>
-                <source srcset="images/soda-spring-images/soda-spring-banner-800.jpg" media="(min-width:32em) and (max-width:49em)">
+                <source srcset="images/soda-spring-images/soda-spring-banner-800.jpg"
+                    media="(min-width:32em) and (max-width:49em)">
                 <source srcset="images/soda-spring-images/soda-spring-banner-1100.jpg" media="(min-width:50em)">
                 <img src="images/soda-spring-images/soda-spring-banner-500.jpg" alt="Snowy town" class="heroImage">
-            </picture>            <section class="wheather-summary">
+            </picture>
+            <section class="wheather-summary">
                 <h3>Wheather Summary</h3>
                 <p>Current: <span id="currentDescrip"></span></p>
                 <p>Current Temperature: <span id="currentTemp"></span>°f</p>
@@ -64,30 +66,37 @@
         <div class='forecast'>
             <h3 class=forecastTitle>5 Day Forecast</h3>
             <table class="five-day">
-                <tr class="weatherDays">
-                </tr>
-                <tr class="weatherIcons">
-                </tr>
-                <tr class="bottom-row">
-                </tr>
+                <thead>
+                    <tr class="weatherDays">
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="weatherIcons">
+                    </tr>
+                    <tr class="bottom-row">
+                    </tr>
+                </tbody>
             </table>
         </div>
         <div class="events"></div>
 
         <div class='article'>
-            <img src="images/home-images/placeholder512x340.png" data-src="images/soda-spring-images/fish-boat.jpg" alt="road" class="road-image">
+            <img src="images/home-images/placeholder512x340.png" data-src="images/soda-spring-images/fish-boat.jpg"
+                alt="road" class="road-image">
             <div class="article-text">
                 <h3>Fishing in Soda Spring</h3>
                 <q>By Daniel De La Pena</q>
                 <p>Idaho has some of the best lakes in the area to fish. There are all kinds of fishes you can get
                     to either keep as pets or eat them. All lakes in the nearby area are also extremely clean, so you
                     really can't go anywhere else to get some free fish. There is not a lot of variaty, but the fishes
-                    that are available are a deliquacy. 
+                    that are available are a deliquacy.
                 </p>
                 <p>It is also very easy to rent a boat if needed, since most of the bigger and most delicious fish
                     are in deep waters. During the next few days, in the areas where the lakes are located, the weather
-                    will be ideal for all the fishes to come out. Just be careful, as the lakes nearby Soda Springs are known
-                    for having turbulent waters, that plus the cool temperatures, can make swimming in them very dangerous.
+                    will be ideal for all the fishes to come out. Just be careful, as the lakes nearby Soda Springs are
+                    known
+                    for having turbulent waters, that plus the cool temperatures, can make swimming in them very
+                    dangerous.
                 </p>
             </div>
         </div>
@@ -123,7 +132,7 @@
     <script src="js/soda-springs-events.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
-        WebFont.load({google: {families: ["Roboto", "Koh Santepheap", "Quicksand"]}});
+        WebFont.load({ google: { families: ["Roboto", "Koh Santepheap", "Quicksand"] } });
     </script>
     <script src="js/lazy-loading.js"></script>
 </body>

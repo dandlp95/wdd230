@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="wireframes for weather site">
     <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="Home/styles/normalize.css">
-    <link rel="stylesheet" href="Home/styles/small.css">
-    <link rel="stylesheet" href="Home/styles/medium.css">
-    <link rel="stylesheet" href="Home/styles/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Wheather Site Home</title>
 </head>
@@ -18,7 +18,7 @@
 <body>
     <header>
         <picture class=logo>
-            <img src="Home/images/weather-logo.png" alt="weather logo">
+            <img src="images/weather-logo.png" alt="weather logo">
         </picture>
         <section class="header">
             <h1>Weather We Doing Today</h1>
@@ -38,9 +38,11 @@
     </nav>
     <main id="wireframe">
         <h2>Wireframes</h2>
-        <li><a href="https://wireframe.cc/pro/pp/99f2954da492810">Large wireframe</a></li>
-        <li><a href="https://wireframe.cc/pro/pp/fb3d820b9492814">Medium wireframe</a></li>
-        <li><a href="https://wireframe.cc/pro/pp/58865086d492832">Small wireframe</a></li>
+        <ul>
+            <li><a href="https://wireframe.cc/pro/pp/99f2954da492810">Large wireframe</a></li>
+            <li><a href="https://wireframe.cc/pro/pp/fb3d820b9492814">Medium wireframe</a></li>
+            <li><a href="https://wireframe.cc/pro/pp/58865086d492832">Small wireframe</a></li>
+        </ul>
         <div class="contact-info">
             <div class="map-container">
                 <img src="images/map.jpg" alt="map" class="map">
@@ -55,10 +57,10 @@
                 <p></p>
             </div>
             <div class="icons">
-                <a href="#" class="fa fa-facebook" alt="Facebook icon"></a>
-                <a href="#" class="fa fa-twitter" alt="Twitter icon"></a>
-                <a href="#" class="fa fa-google" alt="Google icon"></a>
-                <a href="#" class="fa fa-instagram" alt="Instagram icon"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-instagram"></a>
             </div>
         </div>
     </main>
@@ -66,7 +68,7 @@
         <p>&copy; <span id="copyrightyear"></span>Weather We Doing Today | Idaho | Daniel De La Pena</p>
         <p><span id="todayDate"></span></p>
     </footer>
-    <script src="Home/script/home.js"></script>
+    <script src="js/toggleMenu.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({ google: { families: ["Nunito Sans", "Quicksand", "IBM Plex Sans"] } });
