@@ -10,7 +10,7 @@ window.addEventListener("load", (event) => {
   }
   const imgOptions = {
     threshold: 0,
-    rootMargin: "0px 0px 300px 0px"
+    rootMargin: "0px 0px 100px 0px"
   }
   const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     console.log(entries)
@@ -28,13 +28,5 @@ window.addEventListener("load", (event) => {
     imgObserver.observe(image);
   })
 
-
-  let daysPassed = document.getElementById("daysPassed").textContent;
-  let pageVisit = localStorage.getItem('daysPassed') || date;
-  let days = Math.round((pageVisit - date) / 8640000);
-
-  daysPassed.textContent = days;
-
-  localStorage.setItem("daysPassed", daysPassed)
 
 });

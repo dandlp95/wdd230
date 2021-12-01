@@ -24,8 +24,11 @@ fetch(townsURL)
 
         let imgFileNameP = townsInfoP.photo;
 
-        imgP.setAttribute("src", "images/home-images/" + imgFileNameP);
+        imgP.setAttribute("data-src", "images/home-images/" + imgFileNameP);
+        imgP.setAttribute("src", "images/home-images/placeholder512x340.png")
         imgP.setAttribute("alt", "field image");
+
+        
         townsNameP.textContent = townsInfoP.name;
         quotationP.textContent = townsInfoP.motto;
         yearP.textContent = "Year Founded: " + townsInfoP.yearFounded;
@@ -65,7 +68,8 @@ fetch(townsURL)
 
         let imgFileNameF = townsInfoF.photo;
 
-        imgF.setAttribute("src", "images/home-images/" + imgFileNameF);
+        imgF.setAttribute("data-src", "images/home-images/" + imgFileNameF);
+        imgF.setAttribute("src", "images/home-images/placeholder512x340.png")
         imgF.setAttribute("alt", "field images with trees");
         townsNameF.textContent = townsInfoF.name;
         quotationF.textContent = townsInfoF.motto;
@@ -106,7 +110,8 @@ fetch(townsURL)
 
         let imgFileNameS = townsInfoS.photo;
 
-        imgS.setAttribute("src", "images/home-images/" + imgFileNameS);
+        imgS.setAttribute("data-src", "images/home-images/" + imgFileNameS);
+        imgF.setAttribute("src", "images/home-images/placeholder512x340.png")
         imgS.setAttribute("alt", "windmill field");
         townsNameS.textContent = townsInfoS.name;
         quotationS.textContent = townsInfoS.motto;
