@@ -67,8 +67,7 @@ fetch(townsURL)
 
         let imgFileNameF = townsInfoF.photo;
 
-        imgF.setAttribute("data-src", "images/home-images/" + imgFileNameF);
-        imgF.setAttribute("src", "images/home-images/placeholder512x340.png")
+        imgF.setAttribute("src", "images/home-images/" + imgFileNameF);
         imgF.setAttribute("alt", "field images with trees");
         townsNameF.textContent = townsInfoF.name;
         quotationF.textContent = townsInfoF.motto;
