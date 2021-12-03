@@ -108,8 +108,7 @@ fetch(townsURL)
 
         let imgFileNameS = townsInfoS.photo;
 
-        imgS.setAttribute("data-src", "images/home-images/" + imgFileNameS);
-        imgF.setAttribute("src", "images/home-images/placeholder512x340.png")
+        imgS.setAttribute("src", "images/home-images/" + imgFileNameS);
         imgS.setAttribute("alt", "windmill field");
         townsNameS.textContent = townsInfoS.name;
         quotationS.textContent = townsInfoS.motto;
