@@ -24,8 +24,7 @@ fetch(townsURL)
 
         let imgFileNameP = townsInfoP.photo;
 
-        imgP.setAttribute("data-src", "images/home-images/" + imgFileNameP);
-        imgP.setAttribute("src", "images/home-images/placeholder512x340.png")
+        imgP.setAttribute("src", "images/home-images/" + imgFileNameP);
         imgP.setAttribute("alt", "field image");
 
         

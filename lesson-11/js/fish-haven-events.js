@@ -20,8 +20,7 @@ fetch(eventsURL)
 
             title.textContent = sodaSpringEvents[i].event;
             date.textContent = sodaSpringEvents[i].date;
-            img.setAttribute("src", "images/home-images/placeholder512x340.png");
-            img.setAttribute("data-src", sodaSpringEvents[i].photo);
+            img.setAttribute("src", sodaSpringEvents[i].photo);
             img.setAttribute("alt", sodaSpringEvents[i].photoDescription);
 
             eventTextDiv.appendChild(title);
