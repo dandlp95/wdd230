@@ -6,7 +6,7 @@ const apiURL = `https://api.openweathermap.org/data/2.5/weather?id=5585010&units
 fetch(apiURL)
     .then((response) => response.json())
     .then((jsObject) => {
-
+        console.log(jsObject);
         let currentDescrip = document.querySelector('#currentDescrip');
         let currentTemp = document.querySelector("#currentTemp");
         let highTemp = document.querySelector("#high");
@@ -25,7 +25,7 @@ const apiURLForecast = `https://api.openweathermap.org/data/2.5/forecast?id=5585
 fetch(apiURLForecast)
     .then((response) => response.json())
     .then((jsObject) => {
-
+        console.log(jsObject); 
         const sixPm = jsObject.list.filter(x => x.dt_txt.includes("18:00:00"));
 
         const weekDays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
